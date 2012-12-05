@@ -1,0 +1,236 @@
+@charset "utf-8";
+* {
+	margin:0px;
+	padding:0px;
+}
+html, body {
+    height : 100%;
+    width : 100%;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: 1.0em;
+}
+/*
+	HEADER
+ */
+.header h1 {
+	margin: 20px;
+	padding: 20px;
+	vertical-align: middle;
+    text-align : center;
+    font-size : 2.5em;
+}
+h2 {
+	text-align : center;
+	font-size : 1.3em;
+}
+div.logged-info {
+	text-align : right;
+	font-size:0.8em;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+div.desativar-conta {
+	font-size:0.7em;
+}
+/*
+	ESTILOS DE TEXTO (DIV)
+*/
+.centro {
+	text-align: center;
+}
+.fifty-margin {
+	margin: 50px;
+}
+.fifty-padding {
+	padding: 50px;
+}
+div.loading-image-holder {
+	max-height:200px;
+	max-width:200px;
+	display: inline-block;
+}
+.loading-image-holder img {
+	width:100%;
+}
+/*
+	INPUT TEXT
+ */
+div.input {
+	margin: 5px;
+    text-align : center;
+}
+.input.text input{
+	border-radius : 5px;
+    -moz-border-radius : 5px;
+	padding: 8px 10px;
+	width : 300px;
+    height : 20px;
+    font-size : 1.2em;
+    text-align : center;
+}
+.input.select select{
+	border-radius : 5px;
+    -moz-border-radius : 5px;
+	padding: 8px 10px;
+	width : 300px;
+    height : 20px;
+    font-size : 1.2em;
+    text-align : center;
+}
+/*
+	INPUT SUBMIT
+ */
+div.button {
+	margin: 5px;
+    text-align : center;
+}
+.button button{
+	border-radius : 5px;
+    -moz-border-radius : 5px;
+	padding: 0px;
+	width : 320px;
+    height : 40px;
+    font-size : 1.2em;
+    text-align : center;
+}
+/*
+	BOTÕES
+*/
+/* VERDE */
+/*
+background=h:120;s:50;B:70;
+bright-green=h:120;s:60;B:70;
+dark-green=h:120;s:75;B:30;
+border=h:120;s:50;B:60;
+*/
+button.green {
+	background:#59B359;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#47B347), to(#134D13));
+	background-image: -webkit-linear-gradient(top, #47B347, #134D13);
+	background-image: -moz-linear-gradient(top, #47B347, #134D13);
+	border-color: #4D994D;
+	color: #fff;
+	padding: 2px;
+	text-shadow: rgba(0, 0, 0, 0.5) 0px -1px 0px;
+}
+/*
+background=h:120;s:50;B:70;
+bright-green=h:120;s:60;B:80;
+dark-green=h:120;s:75;B:60;
+border=h:120;s:50;B:70;
+*/
+button.green:hover {
+	background:#59B359;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#52CC52), to(#269926));
+	background-image: -webkit-linear-gradient(top, #52CC52, #269926);
+	background-image: -moz-linear-gradient(top, #52CC52, #269926);
+	border-color: #59B359;
+}
+/* VERMELHO */
+/*
+background=h:0;s:50;B:70;
+bright-green=h:0;s:60;B:70;
+dark-green=h:0;s:75;B:30;
+border=h:0;s:50;B:60;
+*/
+button.red {
+	background:#B35959;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#B34747), to(#4D1313));
+	background-image: -webkit-linear-gradient(top, #B34747, #4D1313);
+	background-image: -moz-linear-gradient(top, #B34747, #4D1313);
+	border-color: #994D4D;
+	color: #fff;
+	padding: 2px;
+	text-shadow: rgba(0, 0, 0, 0.5) 0px -1px 0px;
+}
+/*
+background=h:0;s:50;B:70;
+bright-green=h:0;s:60;B:80;
+dark-green=h:0;s:75;B:60;
+border=h:0;s:50;B:70;
+*/
+button.red:hover {
+	background:#B35959;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#CC5252), to(#992626));
+	background-image: -webkit-linear-gradient(top, #CC5252, #992626);
+	background-image: -moz-linear-gradient(top, #CC5252, #992626);
+	border-color: #B35959;
+}
+/* LARANJA */
+/*
+background=h:30;s:50;B:70;
+bright-green=h:30;s:60;B:70;
+dark-green=h:30;s:75;B:30;
+border=h:30;s:50;B:60;
+*/
+button.orange {
+	background:#B38659;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#B37D47), to(#4D3013));
+	background-image: -webkit-linear-gradient(top, #B37D47, #4D3013);
+	background-image: -moz-linear-gradient(top, #B37D47, #4D3013);
+	border-color: #99734D;
+	color: #fff;
+	padding: 2px;
+	text-shadow: rgba(0, 0, 0, 0.5) 0px -1px 0px;
+}
+/*
+background=h:30;s:50;B:70;
+bright-green=h:30;s:60;B:80;
+dark-green=h:30;s:75;B:60;
+border=h:30;s:50;B:70;
+*/
+button.orange:hover {
+	background:#B38659;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#CC8F52), to(#996026));
+	background-image: -webkit-linear-gradient(top, #CC8F52, #996026);
+	background-image: -moz-linear-gradient(top, #CC8F52, #996026);
+	border-color: #B38659;
+}
+/*
+	LISTA DE LIVROS 
+*/
+div.book-item {
+    display:inline-block;
+    border-style: dashed;
+    padding: 10px;
+    margin: 5px;
+    border-width: 2px;
+    font-family: Georgia;
+    font-variant: small-caps;
+    height: 200px;
+    width: 400px;
+    vertical-align:top;
+}
+div.book-image-holder {
+    width: 130px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-image-holder img {
+    width: 100%;
+    height: auto;
+}
+div.book-details {
+    width: 265px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+}
+div.book-details.tenho {
+    text-align: right;
+}
+div.book-details div {
+	margin-bottom: 10px;
+}
+
+div.troca-item {
+	margin:10px;
+	padding: 10px;
+}
+
+
+
